@@ -11,7 +11,7 @@ Intermediate Format: key = a user, value = a list of weighted edges and weighted
 Output: a list of weighted labels for each user, representing the friend recommendations
 
 Use the provided jar to run from the command line: 
-hadoopjar recs.jar src.AdsorptionDriver {arguments}
+hadoop jar recs.jar src.AdsorptionDriver {arguments}
 
 To run the full MapReuce job use the arguments: 
 composite <inputDir> <outputDir> <intermDir1> <intermDir2> <diffDir> <#reducers>
