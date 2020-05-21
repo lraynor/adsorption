@@ -1,4 +1,4 @@
-Implementation of Youtube's Absorption that uses MapReduce to calculate friend recommendations. This was intended for use
+Implementation of Youtube's Absorption algorithm that uses MapReduce to calculate friend recommendations. This was intended for use
 in a "Pennbook" social network web app based on Facebook that allowed users to create profiles, add friends, and select 
 organization afflications, interests, etc. In the friend graph, we represented users as nodes and calculate edges between 
 two nodes based on the sum of 
